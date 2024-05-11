@@ -1,0 +1,197 @@
+version: "3.0"
+
+nlu:
+  - intent: article13
+    examples: |
+      - Law made void
+      - Against fundamental rights
+      - Doctrine of Eclipse
+      - Doctrine of Severability
+      - Article 13
+      - Kesavananda Bharatia
+      - L C Golaknath
+
+  - intent: article34
+    examples: |
+      - Martial Law
+      - Article 34
+      - Indemnify any person.
+      - Military rule.
+
+  - intent: article35
+    examples: |
+      - Definition of directive principles of our state policy
+      - Article 36
+      - Article 37
+      - Part 4 of Indian Constitution
+      - DPSP
+
+  - intent: article36
+    examples: |
+      - Article 38
+      - Keystone of Indian Constitution
+      - Social order
+      - Social, economic and political justice
+      - Eliminating inequalities
+
+  - intent: article37
+    examples: |
+      - Article 39
+      - Article 39A
+      - Citizen livelihood
+      - Concentration of wealth
+      - Protection of childhood and youth
+      - Free legal aid
+      - Equal justice
+      - Undenied justice
+
+  - intent: article40
+    examples: |
+      - Article 40
+      - Panchayat
+      - Self government
+      - Village Panchayat powers
+      - Gram Sabha
+
+  - intent: article41
+    examples: |
+      - Article 41
+      - Right to education
+      - Right to work
+      - Unemployment
+      - Right to public assistance
+
+  - intent: article24
+    examples: |
+      - Child Labour
+      - Child Employment
+      - Under 14 age labour
+      - Under 14 age employment
+      - Clause 7
+      - The Employment of Children Act 1938
+      - Article 24
+
+  - intent: article25
+    examples: |
+      - Free profession
+      - Freedom of conscience
+      - Hindu Institution
+      - Hindu religion
+      - Religious rituals
+      - Religious occasion
+
+  - intent: article26
+    examples: |
+      - Religious affairs
+      - Article 26
+      - Movable and immovable property
+      - Administer of Property
+      - Institutions for religious purpose
+
+  - intent: article27
+    examples: |
+      - No tax
+      - Article 27
+      - Religious tax
+
+  - intent: article29
+    examples: |
+      - Minorities
+      - Educational Institution
+      - Article 29
+      - Education denial
+      - Religion
+      - Caste
+      - Establishment of Institution
+
+  - intent: article30
+    examples: |
+      - Minorities
+      - Educational Institution
+      - Article 29
+      - Education denial
+      - Religion
+      - Caste
+      - Establishment of Institution
+
+  - intent: article31
+    examples: |
+      - Right to property
+      - Confiscate property
+      - Compensation for property
+      - Article 31
+      - Article 31B, 31C and 300A
+      - Article31B
+
+  - intent: article32
+    examples: |
+      - Habeas Corpus
+      - Article 32
+      - Quo Warranto
+      - Approach to SC
+      - Injustice
+
+  - intent: article42
+    examples: |
+      - Maternity relief
+      - Humane conditions
+      - Socialist principle
+      - Justice for women workers
+      - Securing just
+      - Directive principles of state policy
+      - Article 42
+      - Provision for women
+
+  - intent: article43
+    examples: |
+      - Provision for workers
+      - Promotion of Co-operative societies
+      - Living wages
+      - Employment facility for workers
+      - Directive principles for workers
+      - Article 43
+      - Management of industries
+      - Fundamental rights of workers.
+
+  - intent: article44
+    examples: |
+      - Secularism
+      - Equality
+      - Protection of religious law
+      - Legislatuve reforms
+      - Article 44
+      - Right to persanol law
+      - Right to practice religious functions
+      - Uniform civil code
+
+  - intent: article45
+    examples: |
+      - Provision for children
+      - Right to education
+      - Compulsory education
+      - Early education
+      - Provision for childhood care
+      - Rights for children
+      - Free education
+      - Article 45
+
+  - intent: article46
+    examples: |
+      - Provision for SC and ST
+      - Provision for education
+      - Economic interests
+      - Provisions for tribes and weaker section
+      - Article 46
+      - Social justice
+      - Promotion to education.
+
+  - intent: article47
+    examples: |
+      - Public health
+      - Provision for health sector
+      - Article 47
+      - Directive principles for health sector
+      - Standard of living
+      - Right to food
+
+ 

@@ -1,0 +1,62 @@
+version: "3.0"
+
+rules:
+  - rule: "happy path"
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_great
+      - action: utter_happy
+
+  - rule: "sad path 1"
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_unhappy
+      - action: utter_cheer_up
+      - action: utter_did_that_help
+      - intent: affirm
+      - action: utter_happy
+
+  - rule: "sad path 2"
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: mood_unhappy
+      - action: utter_cheer_up
+      - action: utter_did_that_help
+      - intent: deny
+      - action: utter_goodbye
+
+  - rule: "say goodbye"
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - rule: "bot challenge"
+    steps:
+      - intent: bot_challenge
+      - action: utter_iamabot
+
+  - rule: "PatilsWorld"
+    steps:
+      - intent: Patil
+      - action: utter_welcomePatil
+
+  - rule: "NEWS PATH"
+    steps:
+      - intent: newsPatil
+      - action: utter_greet
+      - action: action_get_news
+
+  - rule: "Articles PATH"
+    steps:
+      - intent: article13
+      - action: action_get_articleData
+
+  # Repeat the same structure for other article intents
+
+  - rule: "realdata"
+    steps:
+      - intent: realdata
+      - action: action_get_articleData
