@@ -1,0 +1,19 @@
+# Ignore compiled files
+*.exe
+*.dll
+*.so
+*.out
+
+# Ignore temporary files
+*~
+*.tmp
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore Python virtual environment directory
+venv/
+
+# Ignore environment configuration files
+.env
+config.ini
